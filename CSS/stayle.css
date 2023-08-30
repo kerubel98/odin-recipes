@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-image: none;
+}
+body {
+    background-color: transparent;
+    background-image: none;
+    
+}
+
+.main-contaner {
+    
+    background-color: #5995DA;
+    color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    
+    margin-right: 20px;
+    
+}
+.main {
+    
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+.one-1 {
+    margin-left: auto;
+    padding:0 20px;
+}
+.hed {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 35px;
+    flex: 1;
+    display: flex; 
+}
+.phto-container {
+    
+    background-image: url("photo-1.avif");
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #5995DA;
+    font-size: 35px;;
+    font-style: italic;
+    margin: 0;
+    
+}
+.form {
+    display: flex;
+    width: 450px;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+fieldset {
+    display: flex;
+    width: 450px;
+    height: 50px; 
+    flex-wrap: wrap;
+    border: none;
+}
+
+input {
+    width: inherit;
+    font-size: x-large;
+    border-radius: 25px;
+    padding: 20px;
+    border-color: #5995DA;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.list-of-recipes {
+    
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: stretch;
+    margin: 10px;
+    
+}
+
+.group-list {
+    
+    
+    display: flex;
+    align-content: center;
+    height: 300px;
+    border-radius: 25px;
+    
+    
+
+}
+.list-image {
+    background-image: url("../images/photo-12.avif");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    height: inherit;
+    border-radius: 25px;
+    
+    
+}
+.tite {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    height: 400px;
+    border-radius: 25px;
+    color: hsl(143, 74%, 30%);
+    
+    
+}
+.tite div {
+   
+    padding: 0 10px;
+}
+
+.ckk {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: #7a3e05;
+}
+
+.footer {
+    height: 100px;
+    background-color: #5995DA;
+    border: 1px solid #fff;
+}
+
+
+
+
